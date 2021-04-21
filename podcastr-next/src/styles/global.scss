@@ -30,7 +30,7 @@ body,
 input,
 textarea,
 button {
-  font: 500 1rem Inter, sans-serif;
+  font: 500 1.2rem Inter, sans-serif;
   color: var(--gray-500);
 }
 
@@ -67,5 +67,11 @@ button {
 @media (max-width: 720px) {
   html {
     font-size: 87.5%;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 71%;
   }
 }
